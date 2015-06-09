@@ -1,3 +1,5 @@
+// This is a function to alter the case of a string to the case specified in the "direction" parameter. For when CSS fails.
+
 var caseChange = function(data, direction) {
     var target = document.querySelectorAll(data);
     var l1 = target.length;

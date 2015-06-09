@@ -1,3 +1,5 @@
+// This is a function to replace one type of element with another while preserving the content of the original element(s).
+
 function elementReplace(sel) {
     var selector = sel.split(/(?=\.|#)/);
     var ssElementArray = [];
